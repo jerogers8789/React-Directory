@@ -1,0 +1,17 @@
+.usertable .col {
+    cursor: pointer;
+    background-color:purple;
+    color: white;
+}
+
+.usertable .col .pointer:after {
+    font-size: 80%;
+    content: "";
+    margin-right: 18px;
+}
+
+.usertable .col .pointer:hover:after {
+    font-size: 80%;
+    content: "🔻";
+    margin-right: 0;
+}
